@@ -80,7 +80,6 @@ for i in range(len(df)):
 
 def give_a_recomendation():
     result = []
-    
     answer=st.text_area('Area for textual entry')
     answer=answer.lower()
   
